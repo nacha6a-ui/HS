@@ -132,4 +132,5 @@ for bar, v, p in zip(bars2, v_enhanced, P_enhanced):
                  "0.0 kPa\n0.0 m/s", va='center', fontsize=9, color='red', fontweight='bold')
 
 fig.tight_layout()
+
 st.pyplot(fig)
